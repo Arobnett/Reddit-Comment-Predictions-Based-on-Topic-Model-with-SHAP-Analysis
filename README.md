@@ -26,6 +26,13 @@ then be analyzed for model interpretability using a SHapley
 Additive exPlanations Model (SHAP) to see which words stand out
 as the most contributing features to the prediction model from the
 scraped Reddit text sample data.
+It was found between both of the data sets
+that rather than using the monthly frequency of a particular
+cluster to predict the monthly frequency of another cluster, it’s
+a substantially better predictor to use the individual words of
+the monthly comments as feature variables to predict the
+monthly frequency of another cluster, which improved the average correlation score from the data sets from approximately 29% to appoximately 90%.
+
 ## Index Terms 
 Top2Vec, Topic Modeling, Correlation, Linear
 Regression, SHapley Additive exPlanations Model (SHAP), Cosine
