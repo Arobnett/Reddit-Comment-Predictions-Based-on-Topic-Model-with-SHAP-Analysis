@@ -26,6 +26,7 @@ then be analyzed for model interpretability using a SHapley
 Additive exPlanations Model (SHAP) to see which words stand out
 as the most contributing features to the prediction model from the
 scraped Reddit text sample data.
+
 It was found between both of the data sets
 that rather than using the monthly frequency of a particular
 cluster to predict the monthly frequency of another cluster, it’s
