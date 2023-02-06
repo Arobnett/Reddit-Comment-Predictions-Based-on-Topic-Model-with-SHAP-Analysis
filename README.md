@@ -76,4 +76,12 @@ Top2Vec expresses the semantic similarity from the distance between document and
 
 * Every point in the semantic space represents a topic best described semantically by its nearest word vectors that are closest to a topic vector most representative of semantically where the distance between each word vector to the topic vector indicates how semantically similar the word is to the topic. The words closest to the topic vector can be considered as the words most similar to all documents in that dense area, with the topic vector being the centroid of that area to summarize the common topic of the documents in the dense area. Common words appearing in most documents are often in a region of the semantic space equally distant from all documents so the words closest to a topic vector should rarely be stop-words, so there shouldn’t be a need for stop-word removal. [[5]](https://arxiv.org/abs/2008.09470)
 
- 
+## **III. Proposed Methods**: continued
+
+## **1.b. Data Cleaning & Preprocessing:**
+
+A natural language processing (NLP) pipeline is built for cleaning and preprocessing the text data. Data is cleaned by stripping newlines, tabs, HTML tags, links, whitespaces, accented characters, special characters, stopwords. Data is preprocessed by converting upper to lower case characters, reducing repeated characters and punctuations, expanding contractions, correcting mis-spelled words, lemmatizing the words, and stemming the words. [[3]](https://towardsdatascience.com/cleaning-preprocessing-text-data-by-building-nlp-pipeline-853148add68a)
+
+Tutorial site reference: 
+* [Cleaning & Preprocessing Text Data by Building NLP Pipeline](https://towardsdatascience.com/cleaning-preprocessing-text-data-by-building-nlp-pipeline-853148add68a)
+by [Kajal Yadav](https://github.com/techykajal/Data-Pre-processing/blob/main/Text_Preprocessing.ipynb)
