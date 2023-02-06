@@ -1,4 +1,4 @@
-# Abstract — 
+# Abstract 
 Reddit is particularly an advantageous source of
 data for surveying and sampling purposes. Unlike most other
 prominent data sources where users usually interact, communicate,
@@ -26,7 +26,7 @@ then be analyzed for model interpretability using a SHapley
 Additive exPlanations Model (SHAP) to see which words stand out
 as the most contributing features to the prediction model from the
 scraped Reddit text sample data.
-## Index Terms —
+## Index Terms 
 Top2Vec, Topic Modeling, Correlation, Linear
 Regression, SHapley Additive exPlanations Model (SHAP), Cosine
 Similarity, Euclidean, Distance Metric, United States Air Force,
