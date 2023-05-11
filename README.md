@@ -32,7 +32,7 @@ that rather than using the monthly frequency of a particular
 cluster to predict the monthly frequency of another cluster, it’s
 a substantially better predictor to use the individual words of
 the monthly comments as feature variables to predict the
-monthly frequency of another cluster, which improved the average correlation score from the data sets from approximately 29% to appoximately 90%.
+monthly frequency of another cluster, which improved the average correlation score from the data sets from approximately 29% to approximately 90%.
 
 ## Index Terms 
 Top2Vec, Topic Modeling, Correlation, Linear
